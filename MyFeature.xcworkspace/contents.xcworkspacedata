@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Example/iOS Example/iOS Example.xcodeproj">
+      location = "group:.Example/iOS Example/iOS Example.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MyLibrary">
+      location = "group:./">
    </FileRef>
 </Workspace>

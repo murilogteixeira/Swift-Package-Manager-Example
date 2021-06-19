@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		695B3105267D7CF200C44882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695B3103267D7CF200C44882 /* Main.storyboard */; };
 		695B3107267D7CF400C44882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695B3106267D7CF400C44882 /* Assets.xcassets */; };
 		695B310A267D7CF400C44882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695B3108267D7CF400C44882 /* LaunchScreen.storyboard */; };
+		69FE9099267D849500D5234C /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 69FE9098267D849500D5234C /* MyLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FE9099267D849500D5234C /* MyLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 			children = (
 				695B30FC267D7CF200C44882 /* iOS Example */,
 				695B30FB267D7CF200C44882 /* Products */,
+				69FE9095267D80A800D5234C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = "iOS Example";
 			sourceTree = "<group>";
 		};
+		69FE9095267D80A800D5234C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = "iOS Example";
+			packageProductDependencies = (
+				69FE9098267D849500D5234C /* MyLibrary */,
+			);
 			productName = "iOS Example";
 			productReference = 695B30FA267D7CF200C44882 /* iOS Example.app */;
 			productType = "com.apple.product-type.application";
@@ -339,6 +352,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		69FE9098267D849500D5234C /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 695B30F2267D7CF200C44882 /* Project object */;
 }
