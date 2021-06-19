@@ -1,5 +1,5 @@
 public struct MyLibrary {
     public static func doSomething() {
-        print("My cool package works!! 🎉")
+        print("My cool package works!! 🎉🎉🎉")
     }
 }
